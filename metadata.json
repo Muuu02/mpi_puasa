@@ -1,0 +1,8 @@
+{
+  "name": "Remix MPI PAI Kelas 5: Puasa Wajib \u0026 Sunah",
+  "description": "Multimedia Pembelajaran Interaktif (MPI) PAI Kelas 5 SD BAB 4: Puasa Wajib dan Puasa Sunah untuk Papan Interaktif Digital (PID) berbasis Project Based Learning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

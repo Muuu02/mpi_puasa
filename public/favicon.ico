@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle with Islamic Emerald Green -->
+  <circle cx="64" cy="64" r="60" fill="url(#bgGrad)" stroke="#10b981" stroke-width="4"/>
+  <!-- Decorative Ring -->
+  <circle cx="64" cy="64" r="52" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <!-- Golden Crescent Moon -->
+  <path d="M 66 26 A 38 38 0 1 0 88 94 A 32 32 0 1 1 66 26 Z" fill="url(#goldGrad)" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.4))" />
+  <!-- Radiant 8-pointed Star -->
+  <polygon points="84,42 87,49 94,49 89,54 91,61 84,57 77,61 79,54 74,49 81,49" fill="#fef08a" />
+  <!-- Tiny sparkles -->
+  <circle cx="44" cy="48" r="2" fill="#a7f3d0" opacity="0.8"/>
+  <circle cx="50" cy="78" r="1.5" fill="#a7f3d0" opacity="0.8"/>
+  <circle cx="78" cy="82" r="2" fill="#a7f3d0" opacity="0.8"/>
+</svg>
