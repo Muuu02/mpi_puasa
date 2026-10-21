@@ -41,3 +41,14 @@ Catatan teknis:
 - `scripts/postbuild.mjs` membuat `404.html` + `.nojekyll`. `<base href>` dihitung dari
   `GITHUB_REPOSITORY` (user site `owner.github.io` memakai `/`, repo biasa memakai `/<repo>/`).
 - `npm ci` dipakai di workflow, jadi `package-lock.json` wajib ikut di-commit.
+
+## Publikasi (GitHub Pages)
+
+Situs: https://muuu02.github.io/mpi_puasa/
+
+Deploy otomatis lewat `.github/workflows/deploy.yml` setiap push ke `main`.
+Build menghasilkan `dist/` (Pages), `dist/404.html` (routing SPA), dan `dist/standalone.html`
+(satu berkas HTML untuk dipakai offline di PID).
+
+Prasyarat sekali jalan: Pages harus aktif dengan source **GitHub Actions**
+(Settings → Pages → Build and deployment → Source: GitHub Actions).
